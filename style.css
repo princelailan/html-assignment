@@ -28,11 +28,14 @@ body {
 
 /* Style the image using an ID */
 #styled-image {
-    width: 250px;
-    border: 4px solid #333; /* Black border */
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 5px;
+    width: 100%; /* Makes it responsive */
+    max-width: 600px; /* Prevents it from being too large */
+    height: auto; /* Maintains aspect ratio */
+    border: 4px solid #333; /* Adds a neat border */
+    border-radius: 10px; /* Rounded edges */
+    display: block; /* Ensures proper spacing */
+    margin: 20px auto; /* Centers the image */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
 }
 
 /* Style the footer using an element selector */
